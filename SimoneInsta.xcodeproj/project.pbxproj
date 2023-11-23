@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8892192B03D4F9005EF371 /* SimoneInstaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8892182B03D4F9005EF371 /* SimoneInstaApp.swift */; };
+		2A88921B2B03D4F9005EF371 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A88921A2B03D4F9005EF371 /* ContentView.swift */; };
+		2A88921F2B03D4FA005EF371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A88921E2B03D4FA005EF371 /* Assets.xcassets */; };
+		2A8892222B03D4FA005EF371 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8892212B03D4FA005EF371 /* Preview Assets.xcassets */; };
+		2A88922A2B03F394005EF371 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8892292B03F394005EF371 /* MapKit.framework */; };
+		2A88922D2B041956005EF371 /* NennellaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A88922C2B041956005EF371 /* NennellaView.swift */; };
+		2A8892312B090382005EF371 /* OstelloBelloView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8892302B090382005EF371 /* OstelloBelloView .swift */; };
+		2A8892332B09044D005EF371 /* BarrioBotanicoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8892322B09044D005EF371 /* BarrioBotanicoView.swift */; };
+		2A8892352B092BFC005EF371 /* SorbilloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8892342B092BFC005EF371 /* SorbilloView.swift */; };
+		2A8892372B0B9C2E005EF371 /* PiazzaDanteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8892362B0B9C2E005EF371 /* PiazzaDanteView.swift */; };
+		2A88923B2B0E5042005EF371 /* ChatConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A88923A2B0E5042005EF371 /* ChatConversationView.swift */; };
+		2A8AE7162B0F8CA300249FE3 /* PiazzadelPlebiscitoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE7152B0F8CA300249FE3 /* PiazzadelPlebiscitoView.swift */; };
+		2A8AE7182B0F8DBA00249FE3 /* PiazzaBelliniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE7172B0F8DBA00249FE3 /* PiazzaBelliniView.swift */; };
+		2AB08A4D2B0F908600130D0D /* MaschioAngioinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB08A4C2B0F908600130D0D /* MaschioAngioinoView.swift */; };
+		2AB08A512B0F943300130D0D /* GalleriaUmbertoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB08A502B0F943300130D0D /* GalleriaUmbertoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A8892152B03D4F9005EF371 /* SimoneInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimoneInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8892182B03D4F9005EF371 /* SimoneInstaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimoneInstaApp.swift; sourceTree = "<group>"; };
+		2A88921A2B03D4F9005EF371 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A88921E2B03D4FA005EF371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A8892212B03D4FA005EF371 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A8892292B03F394005EF371 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2A88922B2B03F854005EF371 /* libswiftMapKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftMapKit.tbd; path = usr/lib/swift/libswiftMapKit.tbd; sourceTree = SDKROOT; };
+		2A88922C2B041956005EF371 /* NennellaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NennellaView.swift; sourceTree = "<group>"; };
+		2A8892302B090382005EF371 /* OstelloBelloView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OstelloBelloView .swift"; sourceTree = "<group>"; };
+		2A8892322B09044D005EF371 /* BarrioBotanicoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrioBotanicoView.swift; sourceTree = "<group>"; };
+		2A8892342B092BFC005EF371 /* SorbilloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorbilloView.swift; sourceTree = "<group>"; };
+		2A8892362B0B9C2E005EF371 /* PiazzaDanteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaDanteView.swift; sourceTree = "<group>"; };
+		2A88923A2B0E5042005EF371 /* ChatConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConversationView.swift; sourceTree = "<group>"; };
+		2A8AE7152B0F8CA300249FE3 /* PiazzadelPlebiscitoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzadelPlebiscitoView.swift; sourceTree = "<group>"; };
+		2A8AE7172B0F8DBA00249FE3 /* PiazzaBelliniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaBelliniView.swift; sourceTree = "<group>"; };
+		2AB08A4C2B0F908600130D0D /* MaschioAngioinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaschioAngioinoView.swift; sourceTree = "<group>"; };
+		2AB08A502B0F943300130D0D /* GalleriaUmbertoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleriaUmbertoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A8892122B03D4F9005EF371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A88922A2B03F394005EF371 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A88920C2B03D4F9005EF371 = {
+			isa = PBXGroup;
+			children = (
+				2A8892172B03D4F9005EF371 /* SimoneInsta */,
+				2A8892162B03D4F9005EF371 /* Products */,
+				2A8892282B03F394005EF371 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A8892162B03D4F9005EF371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A8892152B03D4F9005EF371 /* SimoneInsta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A8892172B03D4F9005EF371 /* SimoneInsta */ = {
+			isa = PBXGroup;
+			children = (
+				2A8892182B03D4F9005EF371 /* SimoneInstaApp.swift */,
+				2A88921A2B03D4F9005EF371 /* ContentView.swift */,
+				2AB08A502B0F943300130D0D /* GalleriaUmbertoView.swift */,
+				2AB08A4C2B0F908600130D0D /* MaschioAngioinoView.swift */,
+				2A8AE7172B0F8DBA00249FE3 /* PiazzaBelliniView.swift */,
+				2A88922C2B041956005EF371 /* NennellaView.swift */,
+				2A8892302B090382005EF371 /* OstelloBelloView .swift */,
+				2A8892362B0B9C2E005EF371 /* PiazzaDanteView.swift */,
+				2A8892322B09044D005EF371 /* BarrioBotanicoView.swift */,
+				2A8892342B092BFC005EF371 /* SorbilloView.swift */,
+				2A88923A2B0E5042005EF371 /* ChatConversationView.swift */,
+				2A8AE7152B0F8CA300249FE3 /* PiazzadelPlebiscitoView.swift */,
+				2A88921E2B03D4FA005EF371 /* Assets.xcassets */,
+				2A8892202B03D4FA005EF371 /* Preview Content */,
+			);
+			path = SimoneInsta;
+			sourceTree = "<group>";
+		};
+		2A8892202B03D4FA005EF371 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A8892212B03D4FA005EF371 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A8892282B03F394005EF371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A88922B2B03F854005EF371 /* libswiftMapKit.tbd */,
+				2A8892292B03F394005EF371 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A8892142B03D4F9005EF371 /* SimoneInsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8892252B03D4FA005EF371 /* Build configuration list for PBXNativeTarget "SimoneInsta" */;
+			buildPhases = (
+				2A8892112B03D4F9005EF371 /* Sources */,
+				2A8892122B03D4F9005EF371 /* Frameworks */,
+				2A8892132B03D4F9005EF371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimoneInsta;
+			productName = SimoneInsta;
+			productReference = 2A8892152B03D4F9005EF371 /* SimoneInsta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A88920D2B03D4F9005EF371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2A8892142B03D4F9005EF371 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2A8892102B03D4F9005EF371 /* Build configuration list for PBXProject "SimoneInsta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A88920C2B03D4F9005EF371;
+			productRefGroup = 2A8892162B03D4F9005EF371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A8892142B03D4F9005EF371 /* SimoneInsta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A8892132B03D4F9005EF371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8892222B03D4FA005EF371 /* Preview Assets.xcassets in Resources */,
+				2A88921F2B03D4FA005EF371 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A8892112B03D4F9005EF371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8892372B0B9C2E005EF371 /* PiazzaDanteView.swift in Sources */,
+				2A88922D2B041956005EF371 /* NennellaView.swift in Sources */,
+				2A8892352B092BFC005EF371 /* SorbilloView.swift in Sources */,
+				2A8AE7162B0F8CA300249FE3 /* PiazzadelPlebiscitoView.swift in Sources */,
+				2A88923B2B0E5042005EF371 /* ChatConversationView.swift in Sources */,
+				2A88921B2B03D4F9005EF371 /* ContentView.swift in Sources */,
+				2AB08A512B0F943300130D0D /* GalleriaUmbertoView.swift in Sources */,
+				2A8892312B090382005EF371 /* OstelloBelloView .swift in Sources */,
+				2A8892332B09044D005EF371 /* BarrioBotanicoView.swift in Sources */,
+				2A8892192B03D4F9005EF371 /* SimoneInstaApp.swift in Sources */,
+				2A8AE7182B0F8DBA00249FE3 /* PiazzaBelliniView.swift in Sources */,
+				2AB08A4D2B0F908600130D0D /* MaschioAngioinoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A8892232B03D4FA005EF371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A8892242B03D4FA005EF371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A8892262B03D4FA005EF371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimoneInsta/Preview Content\"";
+				DEVELOPMENT_TEAM = QZYNDY6Q72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simonemercolino.SimoneInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A8892272B03D4FA005EF371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimoneInsta/Preview Content\"";
+				DEVELOPMENT_TEAM = QZYNDY6Q72;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simonemercolino.SimoneInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8892102B03D4F9005EF371 /* Build configuration list for PBXProject "SimoneInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8892232B03D4FA005EF371 /* Debug */,
+				2A8892242B03D4FA005EF371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8892252B03D4FA005EF371 /* Build configuration list for PBXNativeTarget "SimoneInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8892262B03D4FA005EF371 /* Debug */,
+				2A8892272B03D4FA005EF371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A88920D2B03D4F9005EF371 /* Project object */;
+}
